@@ -30,4 +30,5 @@ Oysters T74HMi 4G Device Tree for TWRP
 -------------
 
 https://1.bp.blogspot.com/-fdoMXOZVdXg/V-erprtCD5I/AAAAAAAAK6g/3D8UbeyvfHwKch8f920K-CuxjG9-hoqzwCLcB/s1600/t74hmi_4g_14.jpg - скриншот запущенного TWRP.
+
 http://www.decker.su/2016/09/oysters-t74hmi-lte-akciya-ot-megafon.html - Oysters T74HMi LTE. Краткий обзор устройства.
