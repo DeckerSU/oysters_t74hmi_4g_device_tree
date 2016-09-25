@@ -1,0 +1,1 @@
+add_lunch_combo omni_t74hmi_4g-userdebug
