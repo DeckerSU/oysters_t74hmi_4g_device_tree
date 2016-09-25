@@ -5,7 +5,7 @@ Oysters T74HMi 4G Device Tree for TWRP
 
 Для успешной компиляции можно добавить в локальный манифест следующие строки:
 
-'''xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="omnirom" revision="android-6.0" />
@@ -13,7 +13,7 @@ Oysters T74HMi 4G Device Tree for TWRP
   <remove-project name="android_bootable_recovery" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs" />
 </manifest>
-'''xml
+```xml
 
 В этом случае TWRP будет построен на базе ветки android-7.0 (добавление строк с device/qcom/common не обязательно, т.к. в случае с этим устройством мы имеем дело с платформой Mediatek).
 
@@ -24,3 +24,4 @@ Oysters T74HMi 4G Device Tree for TWRP
 
 - Полная поддержка шифрования, корректное монтирование раздела /userdata.
 - Полная поддержка Adoptable Storage, SD-карта отформатированная как внутренняя память будет видна в TWRP.
+- Поддержка флешек, подключенных через USB-OTG.
