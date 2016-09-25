@@ -13,7 +13,7 @@ Oysters T74HMi 4G Device Tree for TWRP
   <remove-project name="android_bootable_recovery" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-7.0" groups="pdk-cw-fs" />
 </manifest>
-```xml
+```
 
 В этом случае TWRP будет построен на базе ветки android-7.0 (добавление строк с device/qcom/common не обязательно, т.к. в случае с этим устройством мы имеем дело с платформой Mediatek).
 
@@ -25,3 +25,9 @@ Oysters T74HMi 4G Device Tree for TWRP
 - Полная поддержка шифрования, корректное монтирование раздела /userdata.
 - Полная поддержка Adoptable Storage, SD-карта отформатированная как внутренняя память будет видна в TWRP.
 - Поддержка флешек, подключенных через USB-OTG.
+
+Дополнительно
+-------------
+
+https://1.bp.blogspot.com/-fdoMXOZVdXg/V-erprtCD5I/AAAAAAAAK6g/3D8UbeyvfHwKch8f920K-CuxjG9-hoqzwCLcB/s1600/t74hmi_4g_14.jpg - скриншот запущенного TWRP.
+http://www.decker.su/2016/09/oysters-t74hmi-lte-akciya-ot-megafon.html - Oysters T74HMi LTE. Краткий обзор устройства.
